@@ -4,10 +4,12 @@
 const mifucnion = ("Hola Mundo");
 console.log(mifucnion.length);
 
-//ejercicio2
+/*ejercicio2 Programa una función que te devuelva el texto recortado según el
+ número de caracteres indicados, 
+ pe. miFuncion("Hola Mundo", 4) devolverá "Hola".*/
 
 const recortado = ("Dinosaurio")
-console.log(`El caracter 4 es: ${recortado.charAt(4)}`);
+console.log(recortado.substr(0, 4));
 
 /*ejercicio3 Programa una función que dada una 
 String te devuelva un Array de textos 
